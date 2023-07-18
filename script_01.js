@@ -21,4 +21,12 @@
 function output(outputData) {
 	console.log(outputData);
 }
+
+rechnenDaten(prompt("Bitte geben Sie ihre erste Zahl ein:"),prompt("Bitte geben Sie ihre zweite Zahl aus:"));
+
+function rechnenDaten (Zahl1, Zahl2)
+{
+console.log(Zahl1 + Zahl2);
+
+}
   
