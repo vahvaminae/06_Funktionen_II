@@ -18,15 +18,22 @@
 // module: output | test:
 // output("hello");
 // output(2);
+
+
 function output(outputData) {
 	console.log(outputData);
 }
 
-rechnenDaten(prompt("Bitte geben Sie ihre erste Zahl ein:"),prompt("Bitte geben Sie ihre zweite Zahl aus:"));
+//add(prompt("Bitte geben Sie ihre erste Zahl ein:"),prompt("Bitte geben Sie ihre zweite Zahl aus:"));
 
-function rechnenDaten (Zahl1, Zahl2)
+//modul addition
+output(add (2,2))
+
+function add (Zahl1, Zahl2)
 {
-console.log(Zahl1 + Zahl2);
 
+return Zahl1 + Zahl2;
 }
+
+
   
